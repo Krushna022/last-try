@@ -5,34 +5,24 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>NIT</groupId>
-  <artifactId>IOCProje01-pract-SetterInjection</artifactId>
+  <artifactId>IOCProje02-newInstance</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>IOCProje01-pract-SetterInjection</name>
+  <name>IOCProje02-newInstance</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
   </properties>
 
   <dependencies>
-  
-  <!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-context-support</artifactId>
-    <version>5.3.9</version>
-</dependency>
-  
-  
-  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.1</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
